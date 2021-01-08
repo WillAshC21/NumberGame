@@ -1,0 +1,38 @@
+.game-body {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 85%;
+  background-color: #99ccff;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#start-title {
+  font-size: 32px;
+}
+#game-select {
+  width: 70%;
+  height: 10%;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+#game-submit {
+  border-radius: 10px;
+  background-color: #0000cc;
+  color: #fff;
+  font-size: 24px;
+  width: 40%;
+  height: 10%;
+}
+#game-submit:hover {
+  transition: 0.3s;
+  background-color: #33cc00;
+  transform: scale(1.2);
+}
+#game-previous {
+  font-size: 16px;
+}

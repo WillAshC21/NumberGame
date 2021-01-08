@@ -1,0 +1,18 @@
+.game-background {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+#game-title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+#game-subtitle {
+  font-size: 20px;
+}
